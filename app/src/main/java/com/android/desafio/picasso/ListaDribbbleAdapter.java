@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
@@ -35,6 +36,7 @@ public class ListaDribbbleAdapter extends ArrayAdapter<Dribbble> {
 
     private Context context;
     private List<Dribbble> dribbbles = null;
+    ProgressBar prog;
 
     public ListaDribbbleAdapter(Context context, List<Dribbble> dribbbles) {
         super(context, 0, dribbbles);

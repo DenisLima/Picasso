@@ -69,7 +69,7 @@ public class DribbbleDetalhes extends Activity {
             @Override
             protected void onPreExecute(){
                 dialog = new ProgressDialog(DribbbleDetalhes.this);
-                dialog.setMessage("Aguarde...");
+                dialog.setMessage("Carregando Detalhes...");
                 dialog.show();
             }
 
